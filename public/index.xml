@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Walking Kindle Blog</title>
+    <link>https://aleksadev.xyz/</link>
+    <description>Recent content on The Walking Kindle Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 May 2025 12:29:17 +0200</lastBuildDate>
+    <atom:link href="https://aleksadev.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Recommendit</title>
+      <link>https://aleksadev.xyz/posts/recommendit/</link>
+      <pubDate>Tue, 20 May 2025 12:29:17 +0200</pubDate>
+      <guid>https://aleksadev.xyz/posts/recommendit/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;TECH STACK: C#, SQL Server, EF Core, MongoDB, Python(BERT Model), Angular&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Recommednit is a project I had been working on and off for around a year now.&lt;/p&gt;&#xA;&lt;p&gt;As a &lt;strong&gt;TV Show enjoyer&lt;/strong&gt;,a fan of many classic shows like &lt;a href=&#34;https://www.youtube.com/watch?v=P3i36ybA8Ms&amp;amp;ab_channel=HBO&#34;&gt;The Wire&lt;/a&gt;, &lt;a href=&#34;https://www.youtube.com/watch?v=YsBipoG22Nw&amp;amp;ab_channel=jerksto&#34;&gt;The Sopranos&lt;/a&gt;, &lt;a href=&#34;https://www.youtube.com/watch?v=7GGajk7cwYw&amp;amp;t=1s&amp;amp;ab_channel=RabbitWhisperer&#34;&gt;Sucession&lt;/a&gt; I wanted to make a small project that would suggest shows based on a users&amp;rsquo; top 3. Eventually, through some research I found &lt;a href=&#34;https://datastax.medium.com/how-to-implement-cosine-similarity-in-python-505e8ec1d823&#34;&gt;cosine similarity&lt;/a&gt;, a formula that calculates measure of similarity between two non-zero vectors in an n-dimensional space.&#xA;This was the base of my application. But the question was how do I quantify shows to numbers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Now</title>
+      <link>https://aleksadev.xyz/posts/now/</link>
+      <pubDate>Tue, 20 May 2025 11:25:44 +0200</pubDate>
+      <guid>https://aleksadev.xyz/posts/now/</guid>
+      <description>&lt;h2 id=&#34;20052025&#34;&gt;20/05/2025&lt;/h2&gt;&#xA;&lt;p&gt;The initial idea for this came from &lt;a href=&#34;https://sive.rs&#34;&gt;Derek Sivers&lt;/a&gt; and his &lt;a href=&#34;https://sive.rs/now&#34;&gt;now page&lt;/a&gt;.&#xA;I&amp;rsquo;m going to be using it to share daily or weekly updates about my study, work and my projects.&#xA;Derek always shares great content out there and still updates his now page, after 9+ years. Last I checked he was learning Mandarin,&#xA;reading about AI and taking care of his &lt;a href=&#34;https://sive.rs/rats&#34;&gt;pet rats&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;I will post here frequently and share my journey as a software developer.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
