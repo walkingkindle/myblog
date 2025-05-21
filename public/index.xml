@@ -6,8 +6,22 @@
     <description>Recent content on The Walking Kindle Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 May 2025 12:29:17 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 21 May 2025 11:44:09 +0200</lastBuildDate>
     <atom:link href="https://aleksadev.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Concurrency In C# Cookbook</title>
+      <link>https://aleksadev.xyz/posts/concurrencyinc%23/</link>
+      <pubDate>Wed, 21 May 2025 11:44:09 +0200</pubDate>
+      <guid>https://aleksadev.xyz/posts/concurrencyinc%23/</guid>
+      <description>&lt;p&gt;How would you solve a problem where you are inheriting from an async method, but you want to implement it synchronously (in C#)?&lt;/p&gt;&#xA;&lt;p&gt;What about Reporting Progress as a double value as an operation is executing? Or returing any of the tasks that were completed, instead of all?&lt;/p&gt;&#xA;&lt;p&gt;This is what Concurrency in C# is about. Stephen Cleary is one of the authors I found through his blog post that was very famous among the C# community. This inspired him to write a book only about Concurrency, and async implementations in C#, and share his ideas.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Desiging Data Intensive Applications - Book Notes</title>
+      <link>https://aleksadev.xyz/posts/dataintensivebooknotes/</link>
+      <pubDate>Tue, 20 May 2025 19:19:51 +0200</pubDate>
+      <guid>https://aleksadev.xyz/posts/dataintensivebooknotes/</guid>
+      <description>&lt;p&gt;This is an article containing some excerpts, thoughts and obeservations from &lt;a href=&#34;https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321&#34;&gt;Designing Data Intensive Applications: The Big Ideas behind reliable, scalable and maintainable systems&lt;/a&gt; by Martin Klepmann.&lt;/p&gt;&#xA;&lt;h3 id=&#34;chapter-1&#34;&gt;Chapter 1&lt;/h3&gt;&#xA;&lt;p&gt;In chapter 1, we are introduced to the theory of reliable scalable and Maintable applications.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;In this book, we focus on three concerns that are important in most software systems:&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Reliability:&lt;/strong&gt;&#xA;The system should continue to work correctly (performing the correct function at the desired level of performance) even in the face of adversity (hardware or software faults, and even human error).&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Recommendit</title>
       <link>https://aleksadev.xyz/posts/recommendit/</link>

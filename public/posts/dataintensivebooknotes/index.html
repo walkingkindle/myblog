@@ -1,0 +1,442 @@
+
+
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+ 
+
+
+      <title>Desiging Data Intensive Applications - Book Notes - </title>
+
+  <meta name="description" content="This is an article containing some excerpts, thoughts and obeservations from Designing Data Intensive Applications: The Big Ideas behind reliable, scalable and maintainable systems by Martin Klepmann.
+Chapter 1
+In chapter 1, we are introduced to the theory of reliable scalable and Maintable applications.
+
+In this book, we focus on three concerns that are important in most software systems:
+
+Reliability:
+The system should continue to work correctly (performing the correct function at the desired level of performance) even in the face of adversity (hardware or software faults, and even human error)."><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "The Walking Kindle Blog",
+    
+    "url": "https:\/\/aleksadev.xyz\/"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "https:\/\/aleksadev.xyz\/"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https:\/\/aleksadev.xyz\/",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https:\/\/aleksadev.xyz\/posts\/dataintensivebooknotes\/",
+          "name": "Desiging data intensive applications book notes"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : ""
+  },
+  "headline": "Desiging Data Intensive Applications - Book Notes",
+  "description" : "This is an article containing some excerpts, thoughts and obeservations from Designing Data Intensive Applications: The Big Ideas behind reliable, scalable and maintainable systems by Martin Klepmann.\nChapter 1 In chapter 1, we are introduced to the theory of reliable scalable and Maintable applications.\nIn this book, we focus on three concerns that are important in most software systems:\nReliability: The system should continue to work correctly (performing the correct function at the desired level of performance) even in the face of adversity (hardware or software faults, and even human error).\n",
+  "inLanguage" : "en",
+  "wordCount":  1710 ,
+  "datePublished" : "2025-05-20T19:19:51\u002b02:00",
+  "dateModified" : "2025-05-20T19:19:51\u002b02:00",
+  "image" : "https:\/\/aleksadev.xyz\/",
+  "keywords" : [ "" ],
+  "mainEntityOfPage" : "https:\/\/aleksadev.xyz\/posts\/dataintensivebooknotes\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https:\/\/aleksadev.xyz\/",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https:\/\/aleksadev.xyz\/",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+
+<meta property="og:title" content="Desiging Data Intensive Applications - Book Notes" />
+<meta property="og:description" content="This is an article containing some excerpts, thoughts and obeservations from Designing Data Intensive Applications: The Big Ideas behind reliable, scalable and maintainable systems by Martin Klepmann.
+Chapter 1
+In chapter 1, we are introduced to the theory of reliable scalable and Maintable applications.
+
+In this book, we focus on three concerns that are important in most software systems:
+
+Reliability:
+The system should continue to work correctly (performing the correct function at the desired level of performance) even in the face of adversity (hardware or software faults, and even human error).">
+<meta property="og:url" content="https://aleksadev.xyz/posts/dataintensivebooknotes/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="The Walking Kindle Blog" />
+
+  <meta name="twitter:title" content="Desiging Data Intensive Applications - Book Notes" />
+  <meta name="twitter:description" content="This is an article containing some excerpts, thoughts and obeservations from Designing Data Intensive Applications: The Big Ideas behind reliable, scalable and maintainable systems by Martin Klepmann. …">
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="generator" content="Hugo 0.147.3">
+  <link rel="alternate" href="https://aleksadev.xyz/index.xml" type="application/rss+xml" title="The Walking Kindle Blog"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css" integrity="sha384-3UiQGuEI4TTMaFmGIZumfRPtfKQ3trwQE2JgosJxCnGmQpL/lJdjpcHkaaFwHlcI" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.6.0/css/all.css" integrity="sha384-h/hnnw1Bi4nbpD6kE7nYfCXzovi622sY5WBxww8ARKwpdLj5kUWjRuyiXaD1U2JT" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous"><link rel="stylesheet" href="https://aleksadev.xyz/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" /><link rel="stylesheet" href="https://aleksadev.xyz/css/syntax.css" /><link rel="stylesheet" href="https://aleksadev.xyz/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://aleksadev.xyz/">The Walking Kindle Blog</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="posts-heading">
+              
+                <h1>Desiging Data Intensive Applications - Book Notes</h1>
+              
+              
+                <hr class="small">
+              
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>This is an article containing some excerpts, thoughts and obeservations from <a href="https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321">Designing Data Intensive Applications: The Big Ideas behind reliable, scalable and maintainable systems</a> by Martin Klepmann.</p>
+<h3 id="chapter-1">Chapter 1</h3>
+<p>In chapter 1, we are introduced to the theory of reliable scalable and Maintable applications.</p>
+<blockquote>
+<p>In this book, we focus on three concerns that are important in most software systems:</p></blockquote>
+<blockquote>
+<p><strong>Reliability:</strong>
+The system should continue to work correctly (performing the correct function at the desired level of performance) even in the face of adversity (hardware or software faults, and even human error).</p></blockquote>
+<blockquote>
+<p><strong>Scalability:</strong>
+As the system grows (in data volume, traffic volume, or complexity), there should be reasonable ways of dealing with that growth.</p></blockquote>
+<blockquote>
+<p><strong>Maintainability:</strong>
+Over time, many different people will work on the system (engineering and operations, both maintaining current behavior and adapting the system to new use cases), and they should all be able to work on it productively.</p></blockquote>
+<p>Then on reliability:</p>
+<ol>
+<li>
+<p>The application performs the function that the user expected.</p>
+</li>
+<li>
+<p>It can tolerate the user making mistakes or using the software in unexpected ways.</p>
+</li>
+<li>
+<p>Its performance is good enough for the required use case, under the expected load and data volume.</p>
+</li>
+<li>
+<p>The system prevents any unauthorized access and abuse.</p>
+</li>
+</ol>
+<blockquote>
+<p>If all those things together mean “working correctly,” then we can understand reliability as meaning, roughly, “continuing to work correctly, even when things go wrong.”</p></blockquote>
+<blockquote>
+<p>The things that can go wrong are called faults, and systems that anticipate faults and can cope with them are called fault-tolerant or resilient. The former term is slightly misleading: it suggests that we could make a system tolerant of every possible kind of fault, which in reality is not feasible. If the entire planet Earth (and all servers on it) were swallowed by a black hole, tolerance of that fault would require web hosting in space—good luck getting that budget item approved. So it only makes sense to talk about tolerating certain types of faults.</p></blockquote>
+<p>&hellip;</p>
+<blockquote>
+<p>It is impossible to reduce the probability of a fault to zero; therefore it is usually best to design fault-tolerance mechanisms that prevent faults from causing failures.
+Many critical bugs are actually due to poor error handling <a href="https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf">3</a>; by deliberately inducing faults, you ensure that the fault-tolerance machinery is continually exercised and tested, which can increase your confidence that faults will be handled correctly when they occur naturally. The Netflix Chaos Monkey <a href="https://netflix.github.io/chaosmonkey/">4</a> is an example of this approach.</p></blockquote>
+<blockquote>
+<p>Hardware Faults
+When we think of causes of system failure, hardware faults quickly come to mind. Hard disks crash, RAM becomes faulty, the power grid has a blackout, someone unplugs the wrong network cable. Anyone who has worked with large datacenters can tell you that these things happen all the time when you have a lot of machines.</p></blockquote>
+<blockquote>
+<p>Software Errors
+We usually think of hardware faults as being random and independent from each other: one machine’s disk failing does not imply that another machine’s disk is going to fail. There may be weak correlations (for example due to a common cause, such as the temperature in the server rack), but otherwise it is unlikely that a large number of hardware components will fail at the same time.</p></blockquote>
+<blockquote>
+<p>Another class of fault is a systematic error within the system. Examples include:</p></blockquote>
+<blockquote>
+<ol>
+<li>A software bug that causes every instance of an application server to crash when given a particular bad input. For example, consider the leap second on June 30, 2012, that caused many applications to hang simultaneously due to a bug in the Linux kernel <a href="https://www.somebits.com/weblog/tech/bad/leap-second-2012.html">9</a>.</li>
+</ol></blockquote>
+<blockquote>
+<ol start="2">
+<li>A runaway process that uses up some shared resource—CPU time, memory, disk space, or network bandwidth.</li>
+</ol></blockquote>
+<blockquote>
+<ol start="3">
+<li>A service that the system depends on that slows down, becomes unresponsive, or starts returning corrupted responses.</li>
+</ol></blockquote>
+<blockquote>
+<ol start="4">
+<li>Cascading failures, where a small fault in one component triggers a fault in another component, which in turn triggers further faults [10].</li>
+</ol></blockquote>
+<blockquote>
+<p>Humans design and build software systems, and the operators who keep the systems running are also human. Even when they have the best intentions, humans are known to be unreliable. For example, one study of large internet services found that configuration errors by operators were the leading cause of outages, whereas hardware faults (servers or network) played a role in only 10–25% of outages [13].</p></blockquote>
+<blockquote>
+<p>How do we make our systems reliable, in spite of unreliable humans? The best systems combine several approaches:</p></blockquote>
+<blockquote>
+<p>Design systems in a way that minimizes opportunities for error. For example, well-designed abstractions, APIs, and admin interfaces make it easy to do “the right thing” and discourage “the wrong thing.” However, if the interfaces are too restrictive people will work around them, negating their benefit, so this is a tricky balance to get right.</p></blockquote>
+<blockquote>
+<p>Decouple the places where people make the most mistakes from the places where they can cause failures. In particular, provide fully featured non-production sandbox environments where people can explore and experiment safely, using real data, without affecting real users.</p></blockquote>
+<blockquote>
+<p>Test thoroughly at all levels, from unit tests to whole-system integration tests and manual tests [3]. Automated testing is widely used, well understood, and especially valuable for covering corner cases that rarely arise in normal operation.</p></blockquote>
+<blockquote>
+<p>Allow quick and easy recovery from human errors, to minimize the impact in the case of a failure. For example, make it fast to roll back configuration changes, roll out new code gradually (so that any unexpected bugs affect only a small subset of users), and provide tools to recompute data (in case it turns out that the old computation was incorrect).</p></blockquote>
+<blockquote>
+<p>Even in “noncritical” applications we have a responsibility to our users. Consider a parent who stores all their pictures and videos of their children in your photo application [15]. How would they feel if that database was suddenly corrupted? Would they know how to restore it from a backup?</p></blockquote>
+<blockquote>
+<p>Scalability is the term we use to describe a system’s ability to cope with increased load. Note, however, that it is not a one-dimensional label that we can attach to a system: it is meaningless to say “X is scalable” or “Y doesn’t scale.” Rather, discussing scalability means considering questions like “If the system grows in a particular way, what are our options for coping with the growth?” and “How can we add computing resources to handle the additional load?”</p></blockquote>
+<blockquote>
+<p>&hellip;we can and should design software in such a way that it will hopefully minimize pain during maintenance, and thus avoid creating legacy software ourselves. To this end, we will pay particular attention to three design principles for software systems:</p></blockquote>
+<blockquote>
+<p>Operability
+Make it easy for operations teams to keep the system running smoothly.</p></blockquote>
+<blockquote>
+<p>Simplicity
+Make it easy for new engineers to understand the system, by removing as much complexity as possible from the system. (Note this is not the same as simplicity of the user interface.)</p></blockquote>
+<blockquote>
+<p>Evolvability
+Make it easy for engineers to make changes to the system in the future, adapting it for unanticipated use cases as requirements change. Also known as extensibility, modifiability, or plasticity.</p></blockquote>
+<blockquote>
+<p>Simplicity: Managing Complexity
+Small software projects can have delightfully simple and expressive code, but as projects get larger, they often become very complex and difficult to understand. This complexity slows down everyone who needs to work on the system, further increasing the cost of maintenance.</p></blockquote>
+<h3 id="chapter-2">Chapter 2</h3>
+<p>Chapter 2 delves deeper into various ways of data modeling with SQL and NoSQL. With SQL, we get the state of the art relational databases, with their joins. In the book, Klepmann gives the example of the LinkedIn profile, where each of the resume parts within LinkedIn are described in relatonal tables, such as user is connected to many organizations in past/present, has been to one or more schools. The same data can be represented in a non-relational data model. In this case, we add the extra simplicity, like having the resume all in one place in a form of a JSON, with all the fields included. Instead of joins, in this case we would need to query each of the Id&rsquo;s of the organizations separately.</p>
+<pre tabindex="0"><code>  &#34;user_id&#34;:     251,
+  &#34;first_name&#34;:  &#34;Bill&#34;,
+  &#34;last_name&#34;:   &#34;Gates&#34;,
+  &#34;summary&#34;:     &#34;Co-chair of the Bill &amp; Melinda Gates... Active blogger.&#34;,
+  &#34;region_id&#34;:   &#34;us:91&#34;,
+  &#34;industry_id&#34;: 131,
+  &#34;photo_url&#34;:   &#34;/p/7/000/253/05b/308dd6e.jpg&#34;,
+  &#34;positions&#34;: [
+    {&#34;job_title&#34;: &#34;Co-chair&#34;, &#34;organization&#34;: &#34;Bill &amp; Melinda Gates Foundation&#34;},
+    {&#34;job_title&#34;: &#34;Co-founder, Chairman&#34;, &#34;organization&#34;: &#34;Microsoft&#34;}
+  ],
+  &#34;education&#34;: [
+    {&#34;school_name&#34;: &#34;Harvard University&#34;,       &#34;start&#34;: 1973, &#34;end&#34;: 1975},
+    {&#34;school_name&#34;: &#34;Lakeside School, Seattle&#34;, &#34;start&#34;: null, &#34;end&#34;: null}
+  ],
+  &#34;contact_info&#34;: {
+    &#34;blog&#34;:    &#34;http://thegatesnotes.com&#34;,
+    &#34;twitter&#34;: &#34;http://twitter.com/BillGates&#34;
+  }
+}
+</code></pre><blockquote>
+<p>The JSON representation has better locality than the multi-table schema in Figure 2-1. If you want to fetch a profile in the relational example, you need to either perform multiple queries (query each table by user_id) or perform a messy multi-way join between the users table and its subordinate tables. In the JSON representation, all the relevant information is in one place, and one query is sufficient.</p></blockquote>
+<p>However, a potential obvious downside here is that a lot of school names are repeated, &ldquo;Harvard University&rdquo; will now be included in each of the users&rsquo; that went to that school. With relational databases, we will use somtething like an organization ID, and the name will be only shown there once.</p>
+<p>Kleppmann emphasizes:</p>
+<blockquote>
+<p>Whether you store an ID or a text string is a question of duplication. When you use an ID, the information that is meaningful to humans (such as the word Philanthropy) is stored in only one place, and everything that refers to it uses an ID (which only has meaning within the database). When you store the text directly, you are duplicating the human-meaningful information in every record that uses it.
+The advantage of using an ID is that because it has no meaning to humans, it never needs to change: the ID can remain the same, even if the information it identifies changes.</p></blockquote>
+<p>Adding features such as a recommendation would be easier with a relational database in this case:</p>
+<blockquote>
+<p>Say you want to add a new feature: one user can write a recommendation for another user. The recommendation is shown on the résumé of the user who was recommended, together with the name and photo of the user making the recommendation. If the recommender updates their photo, any recommendations they have written need to reflect the new photo. Therefore, the recommendation should have a reference to the author’s profile.</p></blockquote>
+
+
+        
+
+        
+
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="https://aleksadev.xyz/posts/recommendit/" data-toggle="tooltip" data-placement="top" title="Recommendit">&larr; Previous Post</a>
+            </li>
+          
+          
+            <li class="next">
+              <a href="https://aleksadev.xyz/posts/concurrencyinc%23/" data-toggle="tooltip" data-placement="top" title="Concurrency In C# Cookbook">Next Post &rarr;</a>
+            </li>
+          
+        </ul>
+      
+
+
+      
+
+    </div>
+  </div>
+</div>
+
+      <footer>
+  <div class="container">
+    
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+            2025
+          
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="https://aleksadev.xyz/">The Walking Kindle Blog</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="https://gohugo.io">Hugo v0.147.3</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer><script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.js" integrity="sha384-G0zcxDFp5LWZtDuRMnBkk3EphCK1lhEf4UEyEM693ka574TZGwo4IWwS6QLzM/2t" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+<script src="https://code.jquery.com/jquery-3.7.0.slim.min.js" integrity="sha384-w5y/xIeYixWvfM+A1cEbmHPURnvyqmVg5eVENruEdDjcyRLUSNej7512JQGspFUr" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
+<script src="https://aleksadev.xyz/js/main.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script><script src="https://aleksadev.xyz/js/load-photoswipe.js"></script>
+
+
+
+
+
+
+
+
+
+
+    
+  </body>
+</html>
+

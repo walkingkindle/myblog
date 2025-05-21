@@ -24,3 +24,18 @@ and it was frequently shared on LinkedIn. With more time on my hands, it's a gre
 **A great playlist I'm listening to:** [CBS: Pop Rock and Funk Records from Yugoslavia](https://www.youtube.com/watch?v=KC5yuzh3gXE&t=1172s&ab_channel=MAJ)
 Great lists of underrated songs from the 70s that you've never listened to.
 
+
+## 21/05/2025
+
+**What I'm working on:** [My Redis Implementation with CodeCrafters](https://app.codecrafters.io/courses/redis/stages/sm4).
+A Great way to sharpen your skills, according to this [advice from ThePrimaegen]() is to implement things from scratch.
+This is why I'm using most of my spare time nowadays to work on these types of projects, like my [HTTP server implementation](),
+[Redis-lite implementation](), and perhaps [SQL Lite]() in the future. Doubling down on this projects is one of the few things I can do to speedup my job-finding process by enriching my portfolio.
+
+
+**What I'm reading:** Today I grabbed [Concurrency in C# Cookbook](https://stephencleary.com/book/) off the shelf, which delves deep into concurrency and different big topics.
+I made a short post with some notes on the book [here](), which I will update concurrently(no pun intended) with the [Data Intensive Book Notes](). A great read with an interesting style. I've found that having 2 or even 3 books at a time makes things overall more interesting with not much overhead in my case.
+
+**Great Tune I'm listening to**: The Breeze and I ([Spotify](https://open.spotify.com/track/3xCjjJupMl5TD6LbsFAbk3?si=b0e910d158ea4697), [Youtube](https://www.youtube.com/watch?v=Uo8p8m7YNqM&ab_channel=LaurindoAlmeida-Topic))
+
+
