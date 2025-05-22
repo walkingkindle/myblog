@@ -2,26 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://aleksadev.xyz/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2025-05-21T12:38:52+02:00</lastmod>
   </url><url>
-    <loc>https://aleksadev.xyz/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2025-05-21T12:38:52+02:00</lastmod>
   </url><url>
-    <loc>https://aleksadev.xyz/posts/concurrencyinc%23/</loc>
+    <loc>http://localhost:1313/posts/redis/</loc>
+    <lastmod>2025-05-21T12:38:52+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/concurrencyinc%23/</loc>
     <lastmod>2025-05-21T11:44:09+02:00</lastmod>
   </url><url>
-    <loc>https://aleksadev.xyz/posts/dataintensivebooknotes/</loc>
+    <loc>http://localhost:1313/posts/dataintensivebooknotes/</loc>
     <lastmod>2025-05-20T19:19:51+02:00</lastmod>
   </url><url>
-    <loc>https://aleksadev.xyz/posts/recommendit/</loc>
+    <loc>http://localhost:1313/posts/recommendit/</loc>
     <lastmod>2025-05-20T12:29:17+02:00</lastmod>
   </url><url>
-    <loc>https://aleksadev.xyz/posts/now/</loc>
+    <loc>http://localhost:1313/posts/now/</loc>
     <lastmod>2025-05-20T11:25:44+02:00</lastmod>
   </url><url>
-    <loc>https://aleksadev.xyz/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://aleksadev.xyz/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>

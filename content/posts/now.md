@@ -1,6 +1,7 @@
 +++
 date = '2025-05-20T11:25:44+02:00'
 title = 'Now'
+weight = 1
 +++
 
 
@@ -28,14 +29,20 @@ Great lists of underrated songs from the 70s that you've never listened to.
 ## 21/05/2025
 
 **What I'm working on:** [My Redis Implementation with CodeCrafters](https://app.codecrafters.io/courses/redis/stages/sm4).
-A Great way to sharpen your skills, according to this [advice from ThePrimaegen]() is to implement things from scratch.
-This is why I'm using most of my spare time nowadays to work on these types of projects, like my [HTTP server implementation](),
-[Redis-lite implementation](), and perhaps [SQL Lite]() in the future. Doubling down on this projects is one of the few things I can do to speedup my job-finding process by enriching my portfolio.
+A Great way to sharpen your skills, according to this [advice from ThePrimaegen](https://www.youtube.com/shorts/_lZV76JO3WU) is to implement things from scratch.
+This is why I'm using most of my spare time nowadays to work on these types of projects, like my [HTTP server implementation](https://github.com/walkingkindle/http-server),
+[Redis-lite implementation](https://github.com/walkingkindle/redis-lite), and perhaps [SQL Lite](https://app.codecrafters.io/courses/sqlite/overview) in the future. Doubling down on this projects is one of the best things I can do to speedup my job-finding process by enriching my portfolio.
 
 
 **What I'm reading:** Today I grabbed [Concurrency in C# Cookbook](https://stephencleary.com/book/) off the shelf, which delves deep into concurrency and different big topics.
-I made a short post with some notes on the book [here](), which I will update concurrently(no pun intended) with the [Data Intensive Book Notes](). A great read with an interesting style. I've found that having 2 or even 3 books at a time makes things overall more interesting with not much overhead in my case.
+I made a short post with some notes on the book [here](https://aleksadev.xyz/posts/concurrencyinc%23/), which I will update concurrently(no pun intended) with the [Data Intensive Book Notes](https://aleksadev.xyz/posts/dataintensivebooknotes/). A great read with an interesting style. I've found that having 2 or even 3 books at a time makes things overall more interesting with not much overhead in my case.
 
 **Great Tune I'm listening to**: The Breeze and I ([Spotify](https://open.spotify.com/track/3xCjjJupMl5TD6LbsFAbk3?si=b0e910d158ea4697), [Youtube](https://www.youtube.com/watch?v=Uo8p8m7YNqM&ab_channel=LaurindoAlmeida-Topic))
 
+
+## 22/05/2025
+**What I'm working on:** Besides applying for jobs, I am trying hard on this [SQL Lite from scratch project](https://app.codecrafters.io/courses/sqlite/overview) on Codecrafters.
+Codecrafters is a great platform to sharpen your skills as a developer of any experience. You do this by creating projects from scratch, that you regularly use, such as [Http Server](https://app.codecrafters.io/courses/http-server/overview), [Redis](https://app.codecrafters.io/courses/redis/overview), or even your own [BitTorrent](https://app.codecrafters.io/courses/bittorrent/overview).
+
+**What I'm reading**: [When a leap second broke half the internet](https://www.somebits.com/weblog/tech/bad/leap-second-2012.html#:~:text=Nelson's%20Weblog%3A%20tech%20%2F%20bad%20%2F%20leap%2Dsecond%2D2012&text=Yesterday's%20leap%20second%20killed%20half,a%20high%20chance%20of%20failing.) by [Nelson's Webblog](https://www.somebits.com/weblog/). An interesting throwback to 2012 where a Linux kernel thread with a misconfigured time broke all the services that depended on it, including MySQL, which was used for over [90% of the internet at the time](https://db-engines.com/en/ranking). I found this piece from one of the references from [Designing Data Intensive Systems](https://aleksadev.xyz/posts/dataintensivebooknotes/)
 
