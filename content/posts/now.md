@@ -2,6 +2,7 @@
 date = '2025-05-20T11:25:44+02:00'
 title = 'Now'
 weight = 1
+pinned = true
 +++
 
 
@@ -46,3 +47,12 @@ Codecrafters is a great platform to sharpen your skills as a developer of any ex
 
 **What I'm reading**: [When a leap second broke half the internet](https://www.somebits.com/weblog/tech/bad/leap-second-2012.html#:~:text=Nelson's%20Weblog%3A%20tech%20%2F%20bad%20%2F%20leap%2Dsecond%2D2012&text=Yesterday's%20leap%20second%20killed%20half,a%20high%20chance%20of%20failing.) by [Nelson's Webblog](https://www.somebits.com/weblog/). An interesting throwback to 2012 where a Linux kernel thread with a misconfigured time broke all the services that depended on it, including MySQL, which was used for over [90% of the internet at the time](https://db-engines.com/en/ranking). I found this piece from one of the references from [Designing Data Intensive Systems](https://aleksadev.xyz/posts/dataintensivebooknotes/)
 
+
+
+## 25/05/2025
+
+
+**What I'm working on:** Exercises from the book [Computer Systems: A Programmer's Perspective](https://csapp.cs.cmu.edu/3e/home.html), including the guide from [Teach Yourself CS](https://teachyourselfcs.com/) and the related exercise. I found this guide on one of the websites that offered free resources, and I thought it would be a great time to check out some must-learn topics that would provide thorough understanding of fundemental ideas in CS.
+
+
+**Great Tune for this weekend I'm playing on Repeat:** [Spanish Moon by Little Feat](https://open.spotify.com/track/24eRthJ3VWBI7B9cuFBdMG?si=e2759127e16444c5), [Youtube](https://www.youtube.com/watch?v=o6ljNi7RRmE&ab_channel=LittleFeat-Topic)
