@@ -56,3 +56,8 @@ Codecrafters is a great platform to sharpen your skills as a developer of any ex
 
 
 **Great Tune for this weekend I'm playing on Repeat:** [Spanish Moon by Little Feat](https://open.spotify.com/track/24eRthJ3VWBI7B9cuFBdMG?si=e2759127e16444c5), [Youtube](https://www.youtube.com/watch?v=o6ljNi7RRmE&ab_channel=LittleFeat-Topic)
+
+
+## 27/05/2025
+
+**What I'm working on:** Going through these [CS 61C Berkley Lecture Playlist on YouTube](https://www.youtube.com/watch?v=9y_sUqHeyy8&list=PLhMnuBfGeCDM8pXLpqib90mDFJI-e1lpk&ab_channel=SatyakiranDuggina) which I'm extensively pairing with [Computer Systems: A Programmers' Perspective](https://www.cs.sfu.ca/~ashriram/Courses/CS295/assets/books/CSAPP_2016.pdf).Both are available online for free. It looks like this book, along with [Designing Data Intensive Systems](https://aleksadev.xyz/posts/dataintensivebooknotes/) is the best bang for the buck, so I'll be working on those and sharing what I learn in the upcoming weeks.
