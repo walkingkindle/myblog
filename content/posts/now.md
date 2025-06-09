@@ -61,3 +61,18 @@ Codecrafters is a great platform to sharpen your skills as a developer of any ex
 ## 27/05/2025
 
 **What I'm working on:** Going through these [CS 61C Berkley Lecture Playlist on YouTube](https://www.youtube.com/watch?v=9y_sUqHeyy8&list=PLhMnuBfGeCDM8pXLpqib90mDFJI-e1lpk&ab_channel=SatyakiranDuggina) which I'm extensively pairing with [Computer Systems: A Programmers' Perspective](https://www.cs.sfu.ca/~ashriram/Courses/CS295/assets/books/CSAPP_2016.pdf).Both are available online for free. It looks like this book, along with [Designing Data Intensive Systems](https://aleksadev.xyz/posts/dataintensivebooknotes/) is the best bang for the buck, so I'll be working on those and sharing what I learn in the upcoming weeks.
+
+
+## 02/06/2025
+
+**What I'm working on:** [Advent of code 2024](https://adventofcode.com/). This 25-day challenge is intriguing, thought-provoking and magical. A great way to sharpen up your coding skills.
+
+
+**What I'm reading:** [C# Data Structures and Algorhitms 2024, 2nd Edition](https://www.amazon.com/Data-Structures-Algorithms-efficient-applications/dp/1803248270) Brushing up on my basic C# knowledge after a failed interview. The book is very comprehensive, and easy to understand. For now, it mostly covers the very basics, most of which I've already known about. Hopefully going further it will get deeper as well.
+
+
+## 09/06/2025
+
+**What I'm working on:**[Advent of code 2024](https://adventofcode.com/). I've been locking in for these challenges every morning for the past few days.
+
+**What I'm reading:** Expanding my C# knowledge with [C# 12 in a Nutshell](https://www.amazon.com/C-12-Nutshell-Definitive-Reference/dp/1098147448). This 1500-page banger seems to cover everything I've possibly wanted to know about C# and .NET, but didn't know where to find. Both it's depth and width of concepts is astonishing. I am currently on chapter 4 here, Advanced C# Features, but it has already previously covered C# Types (including access modifiers, deeper on abstractions, generics). Some of the concepts are used less in real projects, but it's good to know that they exist at least. Terrific book so far.
