@@ -76,3 +76,12 @@ Codecrafters is a great platform to sharpen your skills as a developer of any ex
 **What I'm working on:**[Advent of code 2024](https://adventofcode.com/). I've been locking in for these challenges every morning for the past few days.
 
 **What I'm reading:** Expanding my C# knowledge with [C# 12 in a Nutshell](https://www.amazon.com/C-12-Nutshell-Definitive-Reference/dp/1098147448). This 1500-page banger seems to cover everything I've possibly wanted to know about C# and .NET, but didn't know where to find. Both it's depth and width of concepts is astonishing. I am currently on chapter 4 here, Advanced C# Features, but it has already previously covered C# Types (including access modifiers, deeper on abstractions, generics). Some of the concepts are used less in real projects, but it's good to know that they exist at least. Terrific book so far.
+
+
+## 17/06/2025
+
+**What I'm working on:** [Advent of code 2024](https://adventofcode.com/). These fun challenges are still part of my daily warm-up when it comes to programming.
+I am also working on a fun marketplace for used and new goods BuySell.Com. I've spent the last few days implementing and thinking over some of the initial architecture and functionalities when it comes to this project. Here is the overview of the architecture [Architecture Diagram](https://drive.google.com/file/d/1pNzut0rI_TDrpIXp5D_Fpha-DSWpEYis/view?usp=sharing).
+
+**What I'm reading:** Basically still going deep on [C# 12 in a Nutshell](https://www.amazon.com/C-12-Nutshell-Definitive-Reference/dp/1098147448). Currently going through the .NET part of the book, which I believe is the most fun.
+
