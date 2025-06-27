@@ -6,8 +6,15 @@
     <description>Recent content in Posts on The Walking Kindle Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 May 2025 11:44:09 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 19 Jun 2025 15:13:05 +0200</lastBuildDate>
     <atom:link href="https://aleksadev.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learning List</title>
+      <link>https://aleksadev.xyz/posts/reading-list/</link>
+      <pubDate>Thu, 19 Jun 2025 15:13:05 +0200</pubDate>
+      <guid>https://aleksadev.xyz/posts/reading-list/</guid>
+      <description>&lt;p&gt;Here are some of the books concepts in my .NET developer roadmap that I plan to learn in the next few years.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.amazon.com/C-12-Nutshell-Definitive-Reference/dp/1098147448&#34;&gt;C# in a Nutshell&lt;/a&gt;. This gap-closer is a first in line of many books that cover the internals of the C# knowledge. It has quite a depth and width of concepts when it comes to .NET and C#. I am currently 7 chapters deep in this and I&amp;rsquo;ve learned so much already. It feels like every other sentence hits me: &lt;em&gt;This is what was asked on that interview, but I didn&amp;rsquo;t know it!&lt;/em&gt; Well, not anymore. Don&amp;rsquo;t let the title fool you. No book that has 1600 pages can have &amp;lsquo;in a nutshell&amp;rsquo; in the name. It&amp;rsquo;s too much of a euphemism.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Now</title>
       <link>https://aleksadev.xyz/posts/now/</link>

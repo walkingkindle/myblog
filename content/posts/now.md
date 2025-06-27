@@ -85,3 +85,18 @@ I am also working on a fun marketplace for used and new goods BuySell.Com. I've 
 
 **What I'm reading:** Basically still going deep on [C# 12 in a Nutshell](https://www.amazon.com/C-12-Nutshell-Definitive-Reference/dp/1098147448). Currently going through the .NET part of the book, which I believe is the most fun.
 
+
+## 19/06/2025
+
+**What I'm working on:** Working on a practice Buy&Sell Marketplace for new&used goods.
+
+**What's helping me study:** [2 Hours of German WW2 Officer to help you work/study/focus](https://www.youtube.com/watch?v=OO14VSx74MU&t=6626s&ab_channel=RadicalLiving) by [Radical Living](https://www.youtube.com/@RadicalLiving). This 2 hour video has been a blessing when it comes to focusing and doubling down on things for the past few months.
+Apart from it being ironic, absurd, and giving you exactly 2 hours to study(keeps track of the progress), it has been a great background worker I use.
+Obviously I don't condone practices that are mentioned or anything that happened in WW2, this is mainly just for humor and some basic motivation.
+
+
+
+## 27/06/2025
+
+**What I'm working on:** I update this infrequently because I still do the same things. [C# 12 in a Nutshell](https://www.amazon.com/C-12-Nutshell-Definitive-Reference/dp/1098147448). and whatever else I grab off the shelf that day, like, say [Designing Data Intensive Systems](https://aleksadev.xyz/posts/dataintensivebooknotes/). People seem to only read one book at a time. I think it's a waste of resources and time, since different styles may appeal to you, and other book might also have interesting ideas. I think of knowledge in engineering should always expand inside-out. You can almost think of your knowledge as a circle, that expands left and right as you gather more and more concepts and tools. There should be a roadmap, and a hierarchy of resources, but it mostly turns out nonlinear in the end anyways, and the best roadmap is the one you had.
+
