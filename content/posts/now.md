@@ -100,3 +100,21 @@ Obviously I don't condone practices that are mentioned or anything that happened
 
 **What I'm working on:** I update this infrequently because I still do the same things. [C# 12 in a Nutshell](https://www.amazon.com/C-12-Nutshell-Definitive-Reference/dp/1098147448). and whatever else I grab off the shelf that day, like, say [Designing Data Intensive Systems](https://aleksadev.xyz/posts/dataintensivebooknotes/). People seem to only read one book at a time. I think it's a waste of resources and time, since different styles may appeal to you, and other book might also have interesting ideas. I think of knowledge in engineering should always expand inside-out. You can almost think of your knowledge as a circle, that expands left and right as you gather more and more concepts and tools. There should be a roadmap, and a hierarchy of resources, but it mostly turns out nonlinear in the end anyways, and the best roadmap is the one you had.
 
+
+## 07/08/2025
+
+**What I'm working on:** Reading C# in a Nutshell, currently on the chapter on async/await and threads. Working on [BuySellDotCom](https://github.com/walkingkindle/BuySell.com) pet project and reading [Designing Data Intensive Systems](https://aleksadev.xyz/posts/dataintensivebooknotes/).
+
+**Playlist I'm listening to:** [that's why Tchaikovsky is the BEST Russian composer | Essential Classical Music](https://www.youtube.com/watch?v=EtO4lKH0Dus&list=RDEtO4lKH0Dus&start_radio=1&t=135s&ab_channel=EssentialClassics). This really helps the focus.
+
+
+## 07/10/2025
+
+**What I'm working on:** Reading C# in a nutshell, currently on chapter on streams, and still working on [BuySellDotCom](https://github.com/walkingkindle/BuySell.com). Slowly ramping up different services and the controllers with a mix of a functional design and clean architecture.
+
+**Short Wikipedia Entry I'm reading:** [List of people who have lived in airports](https://en.wikipedia.org/wiki/List_of_people_who_have_lived_in_airports). This fun entry has dozens of people that had lived in airports for prolonged amount of time. Staying in airports, we think, wow, I could live here, it has everything. Tell that to these people.
+
+
+## 07/30/2025
+
+**What I'm working on:** Since finding a job, I was mostly focused on learning the infrastructure and the depenendencies, as well as solving some tasks at my current job. I did have time, though for these [lecture series](https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video_galleries/video-lectures/) by Mr Hal Abelson [Wikipedia](https://en.wikipedia.org/wiki/Hal_Abelson)
